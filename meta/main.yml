@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  author: Alberto Ramírez
+  description: This Ansible Simple Role just ensure apt-get is up to date and install language packs.
+  company: Ansiro
+  license: MIT
+  min_ansible_version: 1.8
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+
+  categories:
+  - packaging
+  - system
+
+dependencies: []
+

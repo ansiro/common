@@ -1,0 +1,8 @@
+---
+
+- name: ensure apt is up to date
+  apt: upgrade=dist update_cache=yes
+
+- name: install language pack
+  apt: pkg={{ item }} state=present
+  with_items: common_languages
