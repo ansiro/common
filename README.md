@@ -42,13 +42,13 @@ None.
 Example Playbook
 ----------------
 
-Just add **common** role in your playbook and enjoy!
+Just add **aramirez-es.common** role in your playbook and enjoy!
 
 ```yml
 - hosts: servers
   sudo: true
   roles:
-    - role: common
+    - role: aramirez-es.common
 ```
 
 If you want to install other language pack besides **language-pack-en**:
@@ -57,7 +57,7 @@ If you want to install other language pack besides **language-pack-en**:
 - hosts: servers
   sudo: true
   roles:
-    - role: common
+    - role: aramirez-es.common
       common_languages:
         - language-pack-es
         - language-pack-en
