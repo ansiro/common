@@ -5,6 +5,10 @@ This Ansible Simple Role just ensure apt-get is up to date and install language 
 
 Take a look to this role in Ansible Galaxy website: https://galaxy.ansible.com/list#/roles/2465
 
+To take in account:
+* This role may be compatible with other operating systems than Ubuntu, but it hasn't been tested on no one else.
+* This role has been tested on Ansible 1.8 but it could be compatible with lower version as well.
+
 Requirements
 ------------
 
