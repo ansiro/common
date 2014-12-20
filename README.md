@@ -1,4 +1,4 @@
-Role Name
+Ansible Simple Role: Common
 =========
 
 This Ansible Simple Role just ensure apt-get is up to date and install language packs.
