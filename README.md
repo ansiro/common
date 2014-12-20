@@ -3,10 +3,19 @@ Role Name
 
 This Ansible Simple Role just ensure apt-get is up to date and install language packs.
 
+Take a look to this role in Ansible Galaxy website: https://galaxy.ansible.com/list#/roles/2465
+
 Requirements
 ------------
 
 None.
+
+Installation
+------------
+
+```bash
+$ ansible-galaxy install aramirez-es.common
+```
 
 Role Variables
 --------------
@@ -33,6 +42,7 @@ Just add **common** role in your playbook and enjoy!
 
 ```yml
 - hosts: servers
+  sudo: true
   roles:
     - role: common
 ```
@@ -41,6 +51,7 @@ If you want to install other language pack besides **language-pack-en**:
 
 ```yml
 - hosts: servers
+  sudo: true
   roles:
     - role: common
       common_languages:
