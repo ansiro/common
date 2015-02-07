@@ -6,3 +6,7 @@
 - name: install language pack
   apt: pkg={{ item }} state=present
   with_items: common_languages
+
+- name: install custom packages
+  apt: pkg={{ item }} state=present
+  with_items: custom_packages

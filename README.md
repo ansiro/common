@@ -34,6 +34,16 @@ common_languages:
 
 By default, **language-pack-en** is installed.
 
+Also, if you want to install other specific packages, you can do so by adding following variable:
+
+```yml
+custom_packages:
+  - htop
+```
+
+By default, this role installs **htop**.
+
+
 Dependencies
 ------------
 

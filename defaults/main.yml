@@ -2,3 +2,6 @@
 
 common_languages:
   - language-pack-en
+
+custom_packages:
+  - htop
